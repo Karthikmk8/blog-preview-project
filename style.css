@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new{
+    width: 320px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 19px;
+    box-shadow:2px 2px 1px black;
+}
+
+.new>img{
+width: 100%;
+border-radius: 19px;
+}
+.bg{
+    background-color: yellow;
+    display: inline;
+    padding: 4px;
+}
+
+.Authour{
+padding: 26px 0px 25px 0px;
+text-align: center ;
+}
